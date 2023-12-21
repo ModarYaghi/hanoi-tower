@@ -55,7 +55,6 @@ class HanoiSolver:
         then recursively move n-1 disks from auxiliary to destination
         """
         if n == 0:
-            # self._move_disk(source, destination)
             # Base case: no disk to move, so retrun immediately
             return
         self._solve_recursive(n - 1, source, destination, auxiliary)

@@ -1,7 +1,7 @@
 
 from hanoi_solver import HanoiSolver
 
-disks = 5
+disks = 4
 solver = HanoiSolver(disks)
 
 solver.solve()

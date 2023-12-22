@@ -61,7 +61,6 @@ class HanoiSolver:
         self._move_disk(source, destination)
         self._solve_recursive(n - 1, auxiliary, source, destination)
 
-
     def get_solution(self) -> List[Tuple[str, str]]:
         """
         Returns the list of disk move tuples representing the

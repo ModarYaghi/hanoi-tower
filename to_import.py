@@ -1,6 +1,8 @@
-import src
+import src.hanoi_logic.hanoi_solver as hs
 
-solver = src.HanoiSolver(3)
+solver = hs.HanoiSolver(3)
 solver.solve()
 
 print(solver.get_solution())
+
+
